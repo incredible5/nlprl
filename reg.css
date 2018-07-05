@@ -1,0 +1,120 @@
+.reghead
+{
+	text-align: center;
+	width: max-content;
+	margin: auto;
+}
+.reghead h2
+{
+	transform: scale(2,1);
+	font-size: 3em;
+	margin: 0px;
+	color: tomato;
+}
+.reghead p
+{
+	font-size: 1.5em;
+}
+.reghead a
+{
+	font-size: 1.6em;
+	text-decoration: none;
+	color: orangered;
+}
+.reg
+{
+	box-shadow: 10px 10px 10px gray;
+	border: 1px solid gray;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	padding: 20px;
+	font-family: verdana;
+	font-size: 1.4em;
+	width: max-content;
+}
+.reg input
+{
+	font-family: verdana;
+	font-size: 0.9em;
+	padding: 1%;
+}
+#subbtn
+{
+	display: block;
+	margin: 5% auto 0% auto;
+	background-color: lightgreen;
+}
+#subbtn:hover
+{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 850px)
+{
+	.vertnav
+	{
+		width: 15%;
+	}
+	.reg
+	{
+		clear: both;
+	}
+}
+
+@media only screen and (max-width: 650px)
+{
+	.vertnav
+	{
+		width: initial;
+	}
+	.reghead h2
+	{
+		clear: both;
+	}
+}
+
+@media only screen and (max-width: 540px)
+{
+	.reghead h2
+	{
+		clear: both;
+	}
+	.reg
+	{
+		width: 80%;
+	}
+	.reg input
+	{
+		font-size: 0.7em;
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+	.reghead h2
+	{
+		clear: both;
+		font-size: 2em;
+	}
+	.reghead p
+	{
+		font-size: 1.2em;
+	}
+	.reg td
+	{
+		display: block;
+	}
+	.reg input
+	{
+		border: none;
+		border-bottom: 1px solid gray;
+		margin-bottom: 2%;
+	}
+	.reg
+	{
+		border: none;
+	}
+}

@@ -1,0 +1,83 @@
+.sign
+{
+	float: none;
+	width: max-content;
+	margin: auto;
+	margin-top: 5%;
+	padding: 5% 5% 10% 5%;
+	font-size: 1.5em;
+	border: 1px solid gray;
+}
+.forgot
+{
+	all: initial;
+	float: right;
+}
+.forgot a
+{
+	font-size: 1.1em;
+	color: black;
+	margin-top: 18%;
+}
+.sign input
+{
+	border-radius: 4px;
+	margin: 7%;
+	font-size: 0.9em;
+}
+.sign-link
+{
+	all: initial;
+	text-align: center;
+	background-color: rgba(100,100,100,0.5);
+	/*font-size: 100px;*/
+	width: 85%;
+}
+.sign-link:hover
+{
+	cursor: pointer;
+	background-color: red;
+	color: white;
+}
+td
+{
+	font-family: verdana;
+}
+
+@media only screen and (max-width: 800px)
+{
+	#adm
+	{
+		clear: both;
+	}
+	.sign
+	{
+		clear: both;
+	}
+}
+
+@media only screen and (max-width: 540px)
+{
+	.sign td
+	{
+		font-size: 0.7em;
+	}
+}
+@media all and (max-width: 400px)
+{
+	.sign
+	{
+		padding-bottom: 20%;
+	}
+	.sign td
+	{
+		display: block;
+	}
+	.sign input
+	{
+		border: none;
+		border-bottom: 1px solid gray;
+		border-left: 1px solid gray;
+		
+	}
+}

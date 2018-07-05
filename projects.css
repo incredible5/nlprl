@@ -1,0 +1,15 @@
+.homep
+{
+	font-size: 1.1em;
+	font-family: arial;
+	margin: auto;
+	width: 85%;
+}
+.homep .side
+{
+	width: 90%;
+}
+.homep ul:hover, .homep li:hover
+{
+	background-color: initial;
+}

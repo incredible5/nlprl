@@ -1,0 +1,147 @@
+.sign
+{
+	float: none;
+	display: block;
+	width: 40%;
+	margin: auto;
+}
+.sign tr
+{
+	display: inline-block;
+	margin-right: 20px;
+}
+button
+{
+	float: right;
+}
+.container
+{
+	width: 90%;
+	clear: both;
+	margin: auto;
+	margin-top: 2%;
+	background-color: aliceblue;
+	border: 2px solid tomato;
+	border-radius: 10px;
+	padding: 2%;
+}
+.container table
+{
+	width: 100%;
+}
+.container table td
+{
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.container table button
+{
+	font-size: 1em;
+	display: block;
+	width: max-content;
+	margin-right: 30%;
+	margin-right: 30%;
+}
+.container table button:hover
+{
+	cursor: pointer;
+}
+tr:last-child td
+{
+	border-bottom: none;
+}
+.logout
+{
+	display: none;
+	width: max-content;
+	margin: auto;
+}
+.logout input
+{
+	font-size: 1.2em;
+}
+.logout input:hover
+{
+	cursor: pointer;
+}
+.container td:nth-child(odd)
+{
+	width: 80%;
+}
+
+@media only screen and (max-width: 1260px)
+{
+	.sign
+	{
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 1190px)
+{
+	.sign
+	{
+		clear: both;
+	}
+}
+
+@media only screen and (max-width: 1000px)
+{
+	.sign tr td
+	{
+		display: block;
+	}
+	.sign input
+	{
+		border: none;
+		border-radius: 3px;
+		border-bottom: 1px solid black;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+	}
+}
+
+@media only screen and (max-width: 650px)
+{
+	.container td:nth-child(odd)
+	{
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 550px)
+{
+	.sign table tr
+	{
+		width: 100%;
+	}
+	.sign input
+	{
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 460px)
+{
+	.container td:nth-child(odd)
+	{
+		width: 100%;
+	}
+	.container td
+	{
+		display: block;
+		overflow: hidden;
+	}
+	.container td:nth-child(odd)
+	{
+		border: none;
+	}
+	.container td:nth-child(even)
+	{
+		padding-bottom: 2%;
+	}
+	.container td button
+	{
+		width: 40%;
+	}
+}

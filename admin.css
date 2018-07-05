@@ -1,0 +1,108 @@
+.container h1
+{
+	color: red;
+	text-align: center;
+}
+.container table button
+{
+	width: max-content;
+}
+.container th
+{
+	width: 20%;
+}
+.log-out
+{
+	float: right;
+	margin-right: 2%;
+	margin-top: 5%;
+}
+.log-out input:hover
+{
+	cursor: pointer;
+}
+.log-out input
+{
+	font-size: 1.2em;
+}
+
+.container table tr td button
+{
+	width: 40%;
+	margin-bottom: 4%;
+	margin-top: 2%;
+}
+.container td:nth-child(odd)
+{
+	width: initial;
+}
+.file-btn
+{
+	float: none;
+	display: block;
+	font-size: 1.3em;
+	margin: auto;
+}
+.file-btn:hover
+{
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px)
+{
+	html, body, .container, table, table tr, table tr td
+	{
+		overflow: auto;
+	}
+	.container
+	{
+		overflow: auto;
+	}
+	.container table tr td button
+	{
+		width: max-content;
+	}
+	.container table tr td
+	{
+		/*border: 1px solid red;*/
+		width: 1000px;
+	}
+}
+
+@media only screen and (max-width: 650px)
+{
+	.container td:nth-child(odd)
+	{
+		width: 1000px;
+	}
+}
+
+@media only screen and (max-width: 550px)
+{
+
+}
+
+@media only screen and (max-width: 460px)
+{
+	.container td:nth-child(odd)
+	{
+		width: initial;
+	}
+	.container td
+	{
+		display: initial;
+		overflow: auto;
+	}
+	.container td:nth-child(odd)
+	{
+		border: initial;
+	}
+	.container td:nth-child(even)
+	{
+		padding-bottom: 2%;
+	}
+	.container td button
+	{
+		width: initial;
+	}
+}

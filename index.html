@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="nlp.jpg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <script type="text/javascript" src="home.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <img src="malviya_ji.jpg"/>
+        <div class="webname">
+            <a href="index.html"><h1 style="color: rgb(0, 0, 128, 0.9)">Natural Language and Processing Research Lab</h1>
+            <h3 style="color: rgb(70, 70, 70)">Department of Computer Science and Engg.</h3>
+            <h3 style="color: rgb(70, 70, 70)">Indian Institute of Technology (BHU), Varanasi</h3></a>
+        </div>
+        <div class="iitlink">
+                <h3><a href="https://iitbhu.ac.in/" target="_blank" style="text-decoration: none" title="Go to IIT BHU">IIT BHU</a></h3>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div class="hamburger" id="hamburger">
+            <img src="hamburger.png" onclick="dropShow('navbar')" />
+        </div>
+        <div class="hornav" id="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="projects.php">Projects</a>
+                </li>
+                <li>
+                    <div class="drop">
+                    <a href="javascript:void(0)" class="lex" onclick="dropShow('Lexical')">Lexical Resources<i class="arrow down"></i></a>
+                    <div class="dropcon" id="Lexical">
+                        <ul>
+                            <li>
+                                <a href="dictionary.php">Machine Readable Dictionary</a>
+                            </li>
+                            <li>
+                                <a href="corpus.php">Corpus</a>
+                            </li>
+                            <li>
+                                <a href="#/">POS Tagged Corpus</a>
+                            </li>
+                            <li>
+                                <a href="#/">Chunked Corpus</a>
+                            </li>
+                    </ul>
+                    </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="drop">
+                    <a href="javascript:void(0)" class="tool" onclick="dropShow('Tools')">Tools<i class="arrow down"></i></a>
+                    <div class="dropcon" id="Tools">
+                        <ul>
+                            <li>
+                                <a href="pos_tagger.php">POS Tagger</a>
+                            </li>
+                            <li>
+                                <a href="http://nlprl.iitbhu.ac.in/bmmshallowparser/">Chunker</a>
+                            </li>
+                            <li>
+                                <a href="morph_analyser.php">Morph Tools</a>
+                            </li>
+                            <li>
+                                <a href="mt_system.php">MT Systems</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#/">Research</a>
+                </li>
+                <li>
+                    <a href="download.php">Downloads</a>
+                </li>
+                <li>
+                    <a href="#/">Events</a>
+                </li>
+                <li>
+                    <a href="team.php">Teams</a>
+                </li>
+            </ul>
+        </div>
+
+        
+
+        <br>
+        <marquee style="background-color: rgba(30,144,155,0.3);" id="mar" onmouseover="javascript:stop()" onmouseout="javascript:start()"><a href="#" style="text-decoration: none; color: red">Latest News and Announcements</a></marquee>
+        <div class="vertnav">
+            <ul>
+                <li>
+                    <a href="faq.php">FAQ</a>
+                </li>
+                <li>
+                    <a href="contact.php">Contact us</a>
+                </li>
+                <li>
+                    <a href="admlog.php">Admin</a>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <noscript>
+        <div class="noscript">
+            <p>Please enable javscript to use the site with its full functionality, or you can stuck in some pages or not recieve activity messages</p>
+        </div>
+        </noscript>
+        <br>
+        <div class="homep">
+            <p>Natural language processing (NLP) studies the mathematical and computational modelling of various aspects of natural language and develops a wide range of technologies and systems to facilitate human-computer interaction as well as human-human interaction.</p>
+            <br>
+            <p>The last decade has seen a rapid growth in the research and development in the area of Natural Language Processing and Computational Linguistics in India. We already have developed and deployed some language resources, important tools and larger systems, such as Machine Translation for some of the major Indian languages like Hindi, Urdu, Bangla, Marathi, Punjabi, Tamil, Telugu etc.</p>
+            <br>
+            <p>The Department of Computer Science & Engineering, IIT(BHU) was selected by the Ministry of Communications and Information Technology as a node in the National endeavor on Technology Development for Indian Languages. In the NLP Lab of the department research is focused on various sub-areas of Natural Language Processing (NLP), Machine Learning, and Information Extraction.</p>
+        </div>
+        <br>
+        <br>
+        <div class="footer">
+            <p>&copy Copyright: Chaitanya Maurya (2018 and Onwards). All rights reserved</p>
+        </div>
+    </body>
+</html>
