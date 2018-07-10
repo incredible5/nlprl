@@ -496,7 +496,8 @@
                 </tr>
             </table>
             </div>
-            <iframe src="http://nlprl.iitbhu.ac.in/bmmmorph/" width="100%" height="500em" style="margin-top: 2%">Please upgrade your browser to use the PoS Tagger!</iframe>
+            <h2 style="text-align: center; text-decoration: underline">Tools:</h2>
+        <h3 style="text-align: center;"><a href="http://nlprl.iitbhu.ac.in/bmmpostagger/" target="_blank">Bhojpuri, Maithili and Magahi</a></h3>
             <p>Presently, CSE, IIT (BHU) has developed PoS Tagger for less resource languages like Magahi, Maithili and Bhojpuri.</p>
         </div>
         <br>
